@@ -5,6 +5,7 @@ import React from 'react';
 const SearchBar = ({ query, onQueryChange, onSearch }) => {
   return (
     <div>
+      
       <input
         type="text"
         value={query}
